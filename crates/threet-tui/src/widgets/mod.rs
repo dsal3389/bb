@@ -1,3 +1,4 @@
+#![allow(unused_imports)]
 mod button;
 mod field;
 mod status;

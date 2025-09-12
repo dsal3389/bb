@@ -5,7 +5,9 @@ edition.workspace = true
 
 [dependencies]
 anyhow.workspace = true
+async-trait = "0.1.89"
 log.workspace = true
 ratatui = { version = "0.29.0" }
+slotmap = "1.0.7"
 threet-storage = { version = "0.1.0", path = "../threet-storage" }
 tokio.workspace = true
